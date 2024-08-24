@@ -1,0 +1,70 @@
+#controls {
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: 104px;
+  background: #f6f6fe;
+  margin-bottom: 16px;
+}
+#controls input {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding-left: 62px;
+  width: 150px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+#controls button[data-create] {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #4e75ff;
+  cursor: pointer;
+  transition: background-color 250ms linear;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+}
+#controls button[data-create]:focus,
+#controls button[data-create]:hover {
+  background: #6c8cff;
+}
+#controls button[data-destroy] {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #ff4e4e;
+  cursor: pointer;
+  transition: background-color 250ms linear;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+}
+#controls button[data-destroy]:focus,
+#controls button[data-destroy]:hover {
+  background: #ff7070;
+}
+
+#boxes {
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: 134px;
+  background: #f6f6fe;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 44px;
+  padding: 32px;
+}
